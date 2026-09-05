@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.8",
+	"EngineAssociation": "{6E265A85-49AD-D9D8-7381-509D432A28AE}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -13,6 +13,27 @@
 		},
 		{
 			"Name": "HDRIBackdrop",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanCoreTech",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MetaHumanLiveLink",
 			"Enabled": true
 		}
 	]
